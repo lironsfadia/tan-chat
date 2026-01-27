@@ -1,9 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router'
-import logo from '../logo.svg'
+import { createFileRoute } from "@tanstack/react-router";
+import logo from "../logo.svg";
 
-export const Route = createFileRoute('/')({
+export const Route = createFileRoute("/")({
   component: App,
-})
+});
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 122
         </a>
         <a
           className="text-[#61dafb] hover:underline"
@@ -35,5 +35,5 @@ function App() {
         </a>
       </header>
     </div>
-  )
+  );
 }
