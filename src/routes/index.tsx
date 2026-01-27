@@ -23,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 12
+          Learn React 122
         </a>
         <a
           className="text-[#61dafb] hover:underline"

@@ -1,13 +1,14 @@
------
+---
 name: create-pr-and-branch
 description: This prompt helps create a new branch and pull request for a given feature or bug fix.
 argument-hint: Provide a brief description of the feature or bug fix.
 agent: agent
 model: GPT-4o
-tools: [execute, read, edit, search, web, agent, todo, 'github-mcp/*', runSubagent]
+tools:
+  [execute, read, edit, search, web, agent, todo, "github-mcp/*", runSubagent]
 ---
 
-You are tasked with creating a new branch and pull request for a specified feature or bug fix in a GitHub repository. Follow these steps:
+You are tasked with creating a new branch and pull request in a GitHub repository. Follow these steps:
 
 1. **Understand the Requirement**: I will give you id and title of the jira ticket that I fixed
 2. **Create a New Branch**: Generate a suitable branch name based on the id and title (e.g., `[id]_-_[title]`).
